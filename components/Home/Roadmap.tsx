@@ -34,7 +34,7 @@ const Roadmap = () => (
       <div className='container max-w-screen-xl mx-auto'>
         <div className='grid grid-cols-1 sm:grid-cols-2'>
           <div className='text-6xl sm:text-7xl font-copper-black mb-6'>The<br />Roadmap</div>
-          <div className='text-xl'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</div>
+          <div className='text-xl'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</div>
         </div>
         <div className='w-fit grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto'>
           {ROADMAPS1.map(item => <Card key={`rm1-${item.id}`} data={item} />)}
